@@ -74,7 +74,7 @@ class RFID():
         key = db.child("License").child("Key").get()
         return key.val()
 
-    def update(id_list, status_list):
+    def update(id_list):
         Activate.turn_on()
         db.child("Test").set({0:0})
         # UPDATED STATUS LIST
@@ -110,7 +110,7 @@ class RFID():
         tagID = input("Enter RFID tag: ")
         t.cancel()
 
-        # INPUT
+        # HANDLE ID DATA
         if '0' in tagID:
             tagID = tagID[-3:]
         else:
@@ -128,8 +128,8 @@ class RFID():
             print("Your key is valid")
 
         # AUTOMATED RUN 
-            schedule.every(1).seconds.do(RFID.start, status_list, ID_list)
-            schedule.every(2).seconds.do(RFID.update, status_list, ID_list)
+            schedule.every(1).seconds.do(RFID.start, ID_list)
+            schedule.every(2).seconds.do(RFID.update, ID_list)
 
             while True:
                 run = Door.open()
@@ -158,6 +158,8 @@ class Door():
             return True
         else:
             return False
+
+
 
     def open():
         GPIO.output(locker, GPIO.HIGH)
