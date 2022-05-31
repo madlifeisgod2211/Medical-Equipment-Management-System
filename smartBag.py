@@ -17,7 +17,7 @@ if __name__ == "__main__":
     
     else:
         while True:
-            print("Error ... Your system has been disable")
+            print("Error ... Your system has been disabled")
             GPIO.output(red_led, GPIO.LOW)
             time.sleep(2)
             GPIO.output(red_led, GPIO.HIGH)

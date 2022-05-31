@@ -7,7 +7,7 @@ import RPi.GPIO as GPIO
 from pynput.keyboard import Key, Controller
 from datetime import date, datetime
 from mfrc522 import SimpleMFRC522
-from sourceCode.config import *
+from config import *
 
 # SET UP FIREBASE CONNECTION
 firebase = pyrebase.initialize_app(firebaseConfig)
