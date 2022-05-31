@@ -1,0 +1,49 @@
+.container {
+  width: 98%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.child1 {
+  text-transform: uppercase;
+  color: var(--blue4);
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.child2 {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #ccc;
+}
+
+.subBody {
+  background-color: white;
+  width: 98%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.subBody h3 {
+  text-align: center;
+  color: #1a237e;
+  font-weight: bold;
+}
+.cabinetInfor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cabinetItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: centers;
+}

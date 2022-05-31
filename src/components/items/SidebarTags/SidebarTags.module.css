@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  width: 220px;
+  height: 40px;
+  padding-left: 5px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.link:hover {
+  background-color: #ceeffa;
+  transition: all 0.5s;
+}
+
+.link:focus {
+  background-color: #ceeffa;
+  color: #184588;
+}
+
+.tagName {
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.icon:focus {
+  color: #184588;
+}
+
+.title {
+  color: white;
+}

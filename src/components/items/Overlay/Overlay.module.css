@@ -1,0 +1,11 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-items: flex-end; */
+}
+
+.child {
+  margin-bottom: 0px;
+}

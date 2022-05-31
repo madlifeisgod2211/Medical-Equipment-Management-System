@@ -1,0 +1,13 @@
+.container {
+  width: 94%;
+  padding: 0px 10px;
+}
+
+.header1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header2 {
+  font-style: italic;
+}

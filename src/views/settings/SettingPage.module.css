@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.backIcon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.container1 {
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+  background-color: white;
+  margin: 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #ccc;
+}
+
+.child1 {
+  height: 200px;
+}
+
+.btnContainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  padding: 10px 0px;
+}

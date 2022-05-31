@@ -1,0 +1,59 @@
+.container {
+  width: 98%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.subChild1 {
+  text-transform: uppercase;
+  color: #1a237e;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+}
+
+.subChild1 span {
+  position: absolute;
+  left: 0px;
+  background-color: none;
+}
+
+.avatar {
+  background: none;
+  color: var(--blue4);
+}
+
+.avatar:hover {
+  background: white;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px #ccc;
+  color: var(--blue4);
+}
+
+.child2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.child3 {
+  background-color: none;
+  margin-bottom: 20px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notify {
+  text-transform: uppercase;
+  color: #1a237e;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.required {
+  font-size: 18px;
+}

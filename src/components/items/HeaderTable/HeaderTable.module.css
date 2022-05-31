@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+  height: 50px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19);
+  font-size: 25px;
+}
+
+.itemSubDiv {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+  color: #1a237e;
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.container {
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.childActive {
+  color: blue;
+  opacity: 0.2;
+  margin: 0px 2px;
+}
+
+.childActive:hover {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.childInactive {
+  color: red;
+  opacity: 0.2;
+  margin: 0px 2px;
+}
+
+.childInactive:hover {
+  transition: 0.5s;
+  opacity: 1;
+}

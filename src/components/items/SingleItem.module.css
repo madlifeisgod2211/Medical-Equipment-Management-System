@@ -1,0 +1,57 @@
+.itemDiv {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+  /* height: 80px; */
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19);
+  font-size: 16px;
+}
+
+.itemDivUnavailable {
+  background-color: #ffcdd2;
+  border: 2px solid red;
+  color: #880e4f;
+}
+.itemDivAvailable {
+  background-color: #b9f6ca;
+  border: 2px solid green;
+  color: #1b5e20;
+}
+.itemSubDiv {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+}
+
+.subDiv1Unavailable {
+  border-right: 5px solid red;
+}
+
+.subDiv1Available {
+  border-right: 5px solid green;
+}
+.subDivPlus {
+  flex-direction: column;
+  align-items: flex-start;
+  right: -10px;
+}
+
+.itemDiv:hover .sub2 {
+  display: inline;
+}
+
+.sub2 {
+  background-color: none;
+  display: none;
+  position: absolute;
+  right: 5px;
+}
